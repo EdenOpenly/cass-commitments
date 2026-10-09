@@ -1,0 +1,20 @@
+{
+  "title": "Cass Review meta-appraisal: commitment manifest",
+  "upload_type": "dataset",
+  "description": "Hash-chained, append-only commitment manifest for Eden Openly's structured meta-appraisal of the Cass Review (2024) and its commissioned systematic reviews. Each entry records the SHA-256 of a record that is fixed before the outcome it constrains exists (for example, a randomised draw), together with the SHA-256 of the manifest before that entry. Each manifest state is timestamped with OpenTimestamps, which anchors it in the Bitcoin blockchain. The committed records themselves are published later; a commitment is not a publication. To verify entry n, take the first n lines of manifest.jsonl and check manifest-NNNNNN.ots against them.",
+  "creators": [
+    {
+      "name": "Eden Openly",
+      "orcid": "0009-0001-2205-5702"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "commitment scheme",
+    "OpenTimestamps",
+    "preregistration",
+    "randomisation",
+    "meta-appraisal"
+  ]
+}
